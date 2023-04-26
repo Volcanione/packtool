@@ -16,7 +16,7 @@
     "build:mac": "npm run build && electron-builder --mac --config",
     "build:linux": "npm run build && electron-builder --linux --config",
     "build-python": "pyinstaller ./py/api.py --clean --distpath ./pydist",
-    "release": "cross-env GH_TOKEN=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 electron-builder"
+    "release": "cross-env RELEASE_TOKEN=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 electron-builder"
   },
   "build": {
     "win": {
