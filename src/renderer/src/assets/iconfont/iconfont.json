@@ -1,0 +1,79 @@
+{
+  "id": "4001218",
+  "name": "yo-tool",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "30140064",
+      "name": "upload",
+      "font_class": "upload",
+      "unicode": "e674",
+      "unicode_decimal": 58996
+    },
+    {
+      "icon_id": "22698955",
+      "name": "上传文件",
+      "font_class": "shangchuanwenjian",
+      "unicode": "e614",
+      "unicode_decimal": 58900
+    },
+    {
+      "icon_id": "23908282",
+      "name": "添加",
+      "font_class": "tianjia",
+      "unicode": "e647",
+      "unicode_decimal": 58951
+    },
+    {
+      "icon_id": "28404539",
+      "name": "下载",
+      "font_class": "xiazai1",
+      "unicode": "e689",
+      "unicode_decimal": 59017
+    },
+    {
+      "icon_id": "30069681",
+      "name": "拖动图标",
+      "font_class": "tuodongtubiao",
+      "unicode": "e6a9",
+      "unicode_decimal": 59049
+    },
+    {
+      "icon_id": "33714407",
+      "name": "默认图片",
+      "font_class": "morentupian",
+      "unicode": "e6d6",
+      "unicode_decimal": 59094
+    },
+    {
+      "icon_id": "30140036",
+      "name": "shanchu1",
+      "font_class": "shanchu1",
+      "unicode": "e658",
+      "unicode_decimal": 58968
+    },
+    {
+      "icon_id": "30140054",
+      "name": "visible",
+      "font_class": "visible",
+      "unicode": "e66a",
+      "unicode_decimal": 58986
+    },
+    {
+      "icon_id": "15714214",
+      "name": "帮助",
+      "font_class": "bangzhu",
+      "unicode": "e62d",
+      "unicode_decimal": 58925
+    },
+    {
+      "icon_id": "28832008",
+      "name": "提示",
+      "font_class": "tishi",
+      "unicode": "e693",
+      "unicode_decimal": 59027
+    }
+  ]
+}
