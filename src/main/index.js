@@ -5,10 +5,10 @@ import * as path from 'path'
 import * as os from 'os'
 import icon from '../../resources/icon.png?asset'
 process.env['ELECTRON_DISABLE_SECURITY_WARNINGS'] = true
-const vueDevToolsPath = path.join(
-  os.homedir(),
-  'AppData/Local/Google/Chrome/User Data/Default/Extensions/nhdogjmejiglipccpnnnanhbledajbpd/6.5.0_0'
-)
+// const vueDevToolsPath = path.join(
+//   os.homedir(),
+//   'AppData/Local/Google/Chrome/User Data/Default/Extensions/nhdogjmejiglipccpnnnanhbledajbpd/6.5.0_0'
+// )
 
 function createWindow() {
   // Create the browser window.
@@ -55,7 +55,7 @@ function createWindow() {
 // initialization and is ready to create browser windows.
 // Some APIs can only be used after this event occurs.
 app.whenReady().then(async () => {
-  await session.defaultSession.loadExtension(vueDevToolsPath)
+  // await session.defaultSession.loadExtension(vueDevToolsPath)
   // Set app user model id for windows
   electronApp.setAppUserModelId('com.electron')
 
